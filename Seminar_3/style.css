@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+    background: #09101e;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #091220;
+}
+
+header .menu__container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu__container a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+main {
+    width: 1146px;
+    padding-top: 160px;
+    margin: 0 auto;
+}
+
+main .content_text {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 150px;
+}
+
+main .content_text .text_ai h5 {
+    text-transform: uppercase;
+    color: #3A68B8;
+    font-size: 18px;
+}
+
+main .content_text .text_ai h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+main .content_text .text_ai p {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+main .content_text .text_ai button {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #3A68B8;
+    padding: 12px 22px;
+    margin-top: 40px;
+    margin-right: 16px;
+    border: 0;
+}
+
+main .content_text .text_ai button img {
+    Width: 20px;
+    Height: 20px;
+    margin-right: 7px;
+    color: white;
+}
+
+main .content_text .text_ai .img {
+    height: 415px;
+    width: 415px;
+    min-height: 415px;
+    min-width: 415px;
+}
+
+main .content_text .text_ai .img img {
+    height: 100%;
+    width: 100%;
+}
+
+.logo img {
+    margin-top: 120px;
+    margin-left: 50px;
+    gap: 5px;
+}
