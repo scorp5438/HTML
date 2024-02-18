@@ -75,8 +75,8 @@ main .content_text .text_ai button {
 }
 
 main .content_text .text_ai button img {
-    Width: 20px;
-    Height: 20px;
+    Width: 18px;
+    Height: 18px;
     margin-right: 7px;
     color: white;
 }
@@ -93,8 +93,12 @@ main .content_text .text_ai .img img {
     width: 100%;
 }
 
+.logo {
+    width: 1266px;
+}
+
 .logo img {
-    margin-top: 120px;
-    margin-left: 50px;
-    gap: 5px;
+    padding-top: 100px;
+    margin-right: 65px;
+
 }
