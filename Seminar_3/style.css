@@ -94,11 +94,13 @@ main .content_text .text_ai .img img {
 }
 
 .logo {
-    width: 1266px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo img {
     padding-top: 100px;
-    margin-right: 65px;
-
 }

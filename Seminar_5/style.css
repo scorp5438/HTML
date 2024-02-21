@@ -1,0 +1,142 @@
+/* 
+font-family: 'Gilroy-Bold', sans-serif;
+font-family: 'Gilroy-Heavy', sans-serif;
+font-family: 'Gilroy-Light', sans-serif;
+font-family: 'Gilroy-Medium', sans-serif;
+font-family: 'Gilroy-Regular', sans-serif;
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.centre {
+    padding-left: calc(50% - 556px);
+    padding-right: calc(50% - 556px);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.shadow {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 34px;
+    padding-right: 34px;
+    box-shadow: 15px 15px rgba(247, 247, 247, 0.367);
+    border-radius: 5px;
+}
+
+header .menu__block .block__text {
+    width: 310px;
+}
+
+header .menu__block h1 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 27px;
+    line-height: 28.13px;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+header .menu__block h2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 15px;
+    line-height: 16.53px;
+    margin-top: 25px;
+}
+
+header .menu__block p {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #666666;
+}
+
+main {
+    padding-top: 100px;
+    background-color: #FAFAFA;
+}
+
+.title {
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 52px;
+    line-height: 54px;
+}
+
+.title .title__text {
+    width: 740px;
+    text-align: center;
+}
+
+.title .title__text p {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.more__info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.more__info h3 {
+    margin-top: 32px;
+    text-align: center;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.more__info .imfo__text p {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    width: 310px;
+    text-align: center;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #AAAAAA;
+}
+
+.more__info button {
+    border: 0;
+    color: #FFFFFF;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 17px;
+    line-height: 19px;
+    background-color: #F25822;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+}
+
+.more__info .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 34px;
+    margin-bottom: 100px;
+    background-color: #FFFFFF;
+}
